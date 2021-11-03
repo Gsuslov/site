@@ -44,10 +44,14 @@
 - создание информационного сайта со справочной информацией по рыбалке на территории рязанской области;
 - возможность пополнения данных сайта информацией полученной из формы обратной связи "бывалых" рыбаков.
 
-
+                                                          
 ![DFD](https://raw.githubusercontent.com/Gsuslov/site/main/use%20readme.svg)
-
+                                                                  
+							 Рисунок 1 - Use Case диаграмма
+								  
 ![DFD](https://raw.githubusercontent.com/Gsuslov/site/develop/DFD%20latest.svg)
+                                                                    
+						          Рисунок 2 - Data Flow диаграмма 
 
 
 <a name="existSoftware">
