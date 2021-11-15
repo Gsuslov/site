@@ -45,7 +45,7 @@
 - возможность пополнения данных сайта информацией полученной из формы обратной связи "бывалых" рыбаков.
 
                                                           
-![DFD](https://raw.githubusercontent.com/Gsuslov/site/main/use%20readme.svg)
+![Use case](https://raw.githubusercontent.com/Gsuslov/site/main/use%20readme.svg)
                                                                   
 							 Рисунок 1 - Use Case диаграмма
 								  
