@@ -1,0 +1,14 @@
+﻿@using site.Models
+@model IEnumerable<River>
+
+    @{
+        ViewData["Title"] = "AllRivers";
+    }
+
+    <h1>AllRivers</h1>
+    @{
+      foreach (var river in Model){
+        <p>@river.id</p>
+      }
+    }
+

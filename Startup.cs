@@ -11,6 +11,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using site.Interfaces;
+using site.Mocks;
 
 namespace site
 {
@@ -28,10 +30,18 @@ namespace site
         {
 
             services.AddControllers();
+            services.AddMvc();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "site", Version = "v1" });
             });
+            services.AddTransient<IRiver, MockRiver>();
+            services.AddTransient<IFish, MockFish>();
+            services.AddTransient<IUser, MockUser>();
+            services.AddTransient<IOperator, MockOperator>();
+            services.AddTransient<IRegion, MockRegion>();
+            services.AddTransient<IBait, MockBait>();
+            services.AddTransient<IFeedback, MockFeedback>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -45,10 +55,11 @@ namespace site
             }
 
             app.UseHttpsRedirection();
-
             app.UseRouting();
-
             app.UseAuthorization();
+            app.UseStaticFiles();
+
+            //app.UseMvcWithDefaultRoute();
 
             app.UseEndpoints(endpoints =>
             {
