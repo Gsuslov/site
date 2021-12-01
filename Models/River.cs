@@ -11,8 +11,8 @@ namespace site.Models
 
         public int region_id { get; set; }
 
-        public int name { get; set; }
+        public string name { get; set; }
 
-        public int description { get; set; }
+        public string description { get; set; }
     }
 }

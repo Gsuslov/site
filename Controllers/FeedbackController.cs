@@ -4,37 +4,43 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Data;
+using Npgsql;
 
 namespace site.Controllers
 {
     [ApiController]
-    [Route("/Feedback")]
+    [Route("/Feedback")] 
     public class FeedbackController : Controller
     {
-        [HttpGet("GetFeedback")]
-        public ActionResult GetFeedback()
-        {
-            return View();
-        }
+        private DataSet ds = new DataSet();
+        private DataTable dt = new DataTable();
 
-        [HttpPut("CreateFeedback")]
-        public ActionResult CreateFeedback()
+        [HttpPut("Feedback_Create")]
+        public string Feedback_Create(string massage)
         {
-            return View();
+            string connectionString = "Host=localhost;Port=5432;Database=feedback;Username=postgres;Password=postgres";
+            NpgsqlConnection conn = new NpgsqlConnection(connectionString);
+            conn.Open();
+            var cmd = new NpgsqlCommand(@"INSERT INTO feedback (massage) VALUES (@massage)", conn);
+            cmd.Parameters.Add(new NpgsqlParameter("massage", massage));
+            cmd.ExecuteNonQuery();
+            conn.Close();
+            return "Ваш коментарий: " + massage;
         }
-
-        [HttpPut("UpdateFeedback")]
-        public ActionResult UpdateFeedback()
+        [HttpDelete("Feedback_Delete")]
+        public string Feedback_Delete(int id)
         {
-            return View();
-        }
+            string connectionString = "Host=localhost;Port=5432;Database=feedback;Username=postgres;Password=postgres";
+            NpgsqlConnection conn = new NpgsqlConnection(connectionString);
+            conn.Open();
+            var cmd = new NpgsqlCommand(@"DELETE FROM feedback WHERE id=@id", conn);
+            cmd.ExecuteNonQuery();
+            conn.Close();
+            return "Коментарий успешно удален";
 
-        [HttpDelete("DeleteFeedback")]
-        public ActionResult DeliteFeedback()
-        {
-            return View();
+
         }
 
     }
 }
-

@@ -4,116 +4,61 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Data;
+using Npgsql;
 
 namespace site.Controllers
 {
     [ApiController]
     [Route("/Operator")]
-    public class OperatorController : ControllerBase
-
-   
+    public class OperatorController : ControllerBase          
     {
-
-        [HttpGet("FishTypes")]
-        public string FishTypes(string str)
+        
+        private DataSet ds = new DataSet();
+        private DataTable dt = new DataTable();
+        [HttpPut("Operator_Create")]
+        public string User_Create(string email, string password)
         {
-            return str; // Заполнение информации о видах рыб
+            string connectionString = "Host=localhost;Port=5432;Database=feedback;Username=postgres;Password=postgres";
+            NpgsqlConnection conn = new NpgsqlConnection(connectionString);
+            conn.Open();
+            var cmd = new NpgsqlCommand(@"INSERT INTO operator (email,password) VALUES (@email,@password)", conn);
+            cmd.Parameters.Add(new NpgsqlParameter("email", email));
+            cmd.Parameters.Add(new NpgsqlParameter("password", password));
+            cmd.ExecuteNonQuery();
+            conn.Close();
+            return "Оператор " + email + " успешно создан";
+
+        }
+        [HttpPost("Operator_PasswordUpdate")]
+        public string User_PasswordUpdate(string email, string password)
+        {
+            string connectionString = "Host=localhost;Port=5432;Database=feedback;Username=postgres;Password=postgres";
+            NpgsqlConnection conn = new NpgsqlConnection(connectionString);
+            conn.Open();
+            var cmd = new NpgsqlCommand(@"UPDATE operator SET password=@password WHERE email=@email", conn);
+            cmd.Parameters.Add(new NpgsqlParameter("email", email));
+            cmd.Parameters.Add(new NpgsqlParameter("password", password));
+            cmd.ExecuteNonQuery();
+            conn.Close();
+            return "Пароль оператора " + email + " успешно обновлен";
 
         }
 
-        [HttpPost("CreateFishType")]
-        public string CreateFishType(string str)
+        [HttpDelete("Operator_Delete")]
+        public string User_Delete(string email)
         {
-            return str; // Заполнение информации о видах рыб
+            string connectionString = "Host=localhost;Port=5432;Database=feedback;Username=postgres;Password=postgres";
+            NpgsqlConnection conn = new NpgsqlConnection(connectionString);
+            conn.Open();
+            var cmd = new NpgsqlCommand(@"DELETE FROM operator WHERE email=@email", conn);
+            cmd.Parameters.Add(new NpgsqlParameter("email", email));
+            cmd.ExecuteNonQuery();
+            conn.Close();
+            return "Оператор " + email + " удален";
 
         }
 
-        [HttpPut("UpdateFishType")]
-        public string UpdateFishType(string str)
-        {
-            return str; // Заполнение информации о видах рыб
-
-        }
-
-        [HttpDelete("DeleteFishType")]
-        public string DeleteFishType(string str)
-        {
-            return str; // Заполнение информации о видах рыб
-
-        }
-
-        [HttpGet("GetRivers")]
-        public string GetRivers(string str)
-        {
-            return str; // Заполнение информации о водоеме
-        }
-
-        [HttpPost("PostRivers")]
-        public string PostRivers(string str)
-        {
-            return str; // Заполнение информации о водоеме
-        }
-
-        [HttpPut("PutRivers")]
-        public string PutRivers(string str)
-        {
-            return str; // Заполнение информации о водоеме
-        }
-
-        [HttpDelete("DeleteRivers")]
-        public string DeleteRivers(string str)
-        {
-            return str; // Заполнение информации о водоеме
-        }
-
-        [HttpGet("GetProcessingComments")]
-        public string GetProcessingComments(string str)
-        {
-            return str; // обработка комментариев
-        }
-
-        [HttpPost("PostProcessingComments")]
-        public string PostProcessingComments(string str)
-        {
-            return str; // обработка комментариев
-        }
-
-        [HttpPut("PutProcessingComments")]
-        public string PutProcessingComments(string str)
-        {
-            return str; // обработка комментариев
-        }
-
-        [HttpDelete("DeleteProcessingComments")]
-        public string DeleteProcessingComments(string str)
-        {
-            return str; // обработка комментариев
-        }
-
-
-        [HttpGet("TypesBaits")]
-        public string TypesBaits(string str)
-        {
-            return str; // Виды прикормки
-        }
-
-        [HttpGet("LivingFish")]
-        public string LivingFish(string str)
-        {
-            return str; // Перечень обитающих рыб в водоеме
-        }
-
-        [HttpGet("AllocationComment")]
-        public string AllocationComments(string str)
-        {
-            return str; // Размещение комментариев пользователей
-        }
-
-        [HttpGet("RejectionComment")]
-        public string RejectionComment(string str)
-        {
-            return str; // Мотивированный отказ на размещение коментария
-        }
     }
     
 }

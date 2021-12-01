@@ -13,6 +13,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using site.Interfaces;
 using site.Mocks;
+using site.Models;
 
 namespace site
 {
@@ -43,8 +44,7 @@ namespace site
             services.AddTransient<IBait, MockBait>();
             services.AddTransient<IFeedback, MockFeedback>();
         }
-
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+               
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())

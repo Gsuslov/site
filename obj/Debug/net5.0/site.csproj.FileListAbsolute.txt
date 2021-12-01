@@ -124,3 +124,5 @@ C:\Users\Георгий\Documents\GitHub\site\bin\Debug\net5.0\Microsoft.Web.Inf
 C:\Users\Георгий\Documents\GitHub\site\obj\Debug\net5.0\Razor\Views\River\Index.cshtml.g.cs
 C:\Users\Георгий\Documents\GitHub\site\obj\Debug\net5.0\Razor\Views\River\Test.cshtml.g.cs
 C:\Users\Георгий\Documents\GitHub\site\obj\Debug\net5.0\Razor\Views\River\GetRiverId.cshtml.g.cs
+C:\Users\Георгий\Documents\GitHub\site\bin\Debug\net5.0\Npgsql.dll
+C:\Users\Георгий\Documents\GitHub\site\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
