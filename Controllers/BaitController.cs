@@ -10,12 +10,12 @@ namespace site.Controllers
 {
     [ApiController]
     [Route("/Bait")]
-    public class BaitController : Controller
+    public class BaitController : ControllerBase
     {
         [HttpGet("GetBait")]
-        public ActionResult GetBait()
+        public string GetBait()
         {
-            return View();
+            return "MyBait";
         }
 
         [HttpPut("CreateBait")]

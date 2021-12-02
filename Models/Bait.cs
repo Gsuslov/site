@@ -9,7 +9,7 @@ namespace site.Models
     {
         public int id { get; set; }
 
-        public int region_id { get; set; }
+        public int RegionId { get; set; }
 
         public string name { get; set; }
 
