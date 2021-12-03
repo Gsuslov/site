@@ -9,15 +9,8 @@ namespace site.Controllers
     [ApiController]
     [Route("/River")]
     public class RiverController : Controller
-    {
-
-        [HttpGet("GetRiver")]
-        public ViewResult GetRiver()
-        {
-            return View();
-        }            
-             
-
+    {        
+            
     }
 }
 

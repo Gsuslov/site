@@ -16,24 +16,6 @@ namespace site.Controllers
         {
             return "MyBait";
         }
-
-        [HttpPut("CreateBait")]
-        public ActionResult CreateBait()
-        {
-            return View();
-        }
-
-        [HttpPut("UpdateBait")]
-        public ActionResult UpdateBait()
-        {
-            return View();
-        }
-
-        [HttpDelete("DeleteBait")]
-        public ActionResult DeliteBait()
-        {
-            return View();
-        }
-
+                  
     }
 }
