@@ -104,16 +104,6 @@ C:\Users\Георгий\Documents\GitHub\site\bin\Debug\net5.0\zh-Hant\Microsoft
 C:\Users\Георгий\Documents\GitHub\site\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\Георгий\Documents\GitHub\site\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\Георгий\Documents\GitHub\site\bin\Debug\net5.0\site.Views.dll
-C:\Users\Георгий\Documents\GitHub\site\bin\Debug\net5.0\site.Views.pdb
-C:\Users\Георгий\Documents\GitHub\site\obj\Debug\net5.0\site.RazorAssemblyInfo.cache
-C:\Users\Георгий\Documents\GitHub\site\obj\Debug\net5.0\site.RazorAssemblyInfo.cs
-C:\Users\Георгий\Documents\GitHub\site\obj\Debug\net5.0\site.TagHelpers.input.cache
-C:\Users\Георгий\Documents\GitHub\site\obj\Debug\net5.0\site.TagHelpers.output.cache
-C:\Users\Георгий\Documents\GitHub\site\obj\Debug\net5.0\site.RazorCoreGenerate.cache
-C:\Users\Георгий\Documents\GitHub\site\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
-C:\Users\Георгий\Documents\GitHub\site\obj\Debug\net5.0\site.RazorTargetAssemblyInfo.cs
-C:\Users\Георгий\Documents\GitHub\site\obj\Debug\net5.0\site.Views.pdb
-C:\Users\Георгий\Documents\GitHub\site\obj\Debug\net5.0\Razor\Views\Index.cshtml.g.cs
 C:\Users\Георгий\Documents\GitHub\site\bin\Debug\net5.0\System.Web.Mvc.dll
 C:\Users\Георгий\Documents\GitHub\site\bin\Debug\net5.0\System.Web.Razor.dll
 C:\Users\Георгий\Documents\GitHub\site\bin\Debug\net5.0\System.Web.Helpers.dll
@@ -121,8 +111,5 @@ C:\Users\Георгий\Documents\GitHub\site\bin\Debug\net5.0\System.Web.WebPag
 C:\Users\Георгий\Documents\GitHub\site\bin\Debug\net5.0\System.Web.WebPages.Razor.dll
 C:\Users\Георгий\Documents\GitHub\site\bin\Debug\net5.0\System.Web.WebPages.dll
 C:\Users\Георгий\Documents\GitHub\site\bin\Debug\net5.0\Microsoft.Web.Infrastructure.dll
-C:\Users\Георгий\Documents\GitHub\site\obj\Debug\net5.0\Razor\Views\River\Index.cshtml.g.cs
-C:\Users\Георгий\Documents\GitHub\site\obj\Debug\net5.0\Razor\Views\River\Test.cshtml.g.cs
-C:\Users\Георгий\Documents\GitHub\site\obj\Debug\net5.0\Razor\Views\River\GetRiverId.cshtml.g.cs
 C:\Users\Георгий\Documents\GitHub\site\bin\Debug\net5.0\Npgsql.dll
 C:\Users\Георгий\Documents\GitHub\site\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll

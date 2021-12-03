@@ -12,15 +12,6 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Views\Fish\" />
-    <Folder Include="Views\User\" />
-    <Folder Include="Views\Bait\" />
-    <Folder Include="Views\Feedback\" />
-    <Folder Include="Views\Operator\" />
-    <Folder Include="Views\Region\" />
-  </ItemGroup>
-
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
     <TypeScriptTarget>ES2019</TypeScriptTarget>
     <TypeScriptJSXEmit>React</TypeScriptJSXEmit>

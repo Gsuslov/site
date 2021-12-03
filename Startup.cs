@@ -11,8 +11,6 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
-using site.Interfaces;
-using site.Mocks;
 using site.Models;
 
 namespace site
@@ -36,13 +34,7 @@ namespace site
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "site", Version = "v1" });
             });
-            services.AddTransient<IRiver, MockRiver>();
-            services.AddTransient<IFish, MockFish>();
-            services.AddTransient<IUser, MockUser>();
-            services.AddTransient<IOperator, MockOperator>();
-            services.AddTransient<IRegion, MockRegion>();
-            services.AddTransient<IBait, MockBait>();
-            services.AddTransient<IFeedback, MockFeedback>();
+            
         }
                
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
