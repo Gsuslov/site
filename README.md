@@ -82,7 +82,7 @@
 ![ER](https://raw.githubusercontent.com/Gsuslov/site/develop/ER%20diagram.svg)
 
 	
-                                                 Рисунок 3 - Entity-Relationship диаграмма
+                                                        Рисунок 3 - Entity-Relationship диаграмма
 	
 
 	
@@ -93,7 +93,7 @@
 	
 ![PG](https://github.com/Gsuslov/site/blob/develop/screenshots/pg2.png)
 	
-                                                    Рисунок 4 - Пример базы данных feedback
+                                                       Рисунок 4 - Пример базы данных feedback
 	
 Основная сложность реализации системы состояла в создании основных методов CRUD (Create, Read, Update, Delete) в рамках контроллеров. 
 Пример листина реализации CRUD (Рисунок 5) 
@@ -150,12 +150,40 @@
 
     }
 ```
-                                                    Рисунок 5 - Пример листина реализации CRUD
+                                                       Рисунок 5 - Пример листина реализации CRUD
 	
 ## 4 Тестирование системы
 	
 Проведем полное тестирование на примере класса User методов CRUD. В остальных классах реализуются аналогичные методы. Их отличительной чертой является разная привязка к базе данных или запрос к таблице базы данных. Пример работы метода Create (Рисунок 6)
 
+![test1](https://github.com/Gsuslov/site/blob/develop/screenshots/test1.png)
+	                                               Рисунок 6 - Пример работы метода Create
+	
+Проверка базы данных на успешное выполнение метода Create (Рисунок 7)
+	
+![testpg1](https://github.com/Gsuslov/site/blob/develop/screenshots/testpg1.png)
+	                                              Рисунок 7 - Проверка базы данных на успешное выполнение метода Create
+	
+Пример работы метода Update (Рисунок 8)	
+
+![test2](https://github.com/Gsuslov/site/blob/develop/screenshots/test2.png)
+	                                              Рисунок 8 - Пример работы метода Update
+	
+Проверка базы данных на успешное выполнение метода Update (Рисунок 9)
+	
+![testpg2](https://github.com/Gsuslov/site/blob/develop/screenshots/testpg2.png)	
+	                                            Рисунок 9 - Проверка базы данных на успешное выполнение метода Update
+	
+Пример работы метода Delete (Рисунок 10)
+
+![test3](https://github.com/Gsuslov/site/blob/develop/screenshots/test3.png)
+	                                          Рисунок 10 - Пример работы метода Delete
+	
+Проверка базы данных на успешное выполнение метода Delete (Рисунок 11)
+	
+![testpg3](https://github.com/Gsuslov/site/blob/develop/screenshots/del.png)	
+	                                          Рисунок 11 - Проверка базы данных на успешное выполнение метода Delete
+	
 ## Заключение
  
 ## Список литературы                           
