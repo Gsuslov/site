@@ -102,13 +102,8 @@
 </p>	
 Основная сложность реализации системы состояла в создании основных методов CRUD (Create, Read, Update, Delete) в рамках контроллеров. 
 Пример листина реализации CRUD (Рисунок 5) 
-```
-    [ApiController]
-    [Route("/User")]
-    public class UserController : ControllerBase
-    {
-        private DataSet ds = new DataSet();
-        private DataTable dt = new DataTable();
+
+
 
         [HttpPut("User_Create")]
         public string User_Create(string email, string password)
@@ -234,7 +229,8 @@
 Яндекс Дзен - https://zen.yandex.ru/media/id/5de683cd3d008800ad7b76aa/kak-podkliuchit-i-ispolzovat-postgresql-v-c-60059adda3a08c096f56ae36,
 
 Microsoft.com - https://docs.microsoft.com/ru-ru/azure/postgresql/connect-csharp
-	
+
+<a name="source_5"/>
 	
 [5] CRUD Ресурс Wikipedia - https://ru.wikipedia.org/wiki/CRUD
 
