@@ -236,6 +236,6 @@
 Microsoft.com - https://docs.microsoft.com/ru-ru/azure/postgresql/connect-csharp
 	
 	
-
+[5] CRUD Ресурс Wikipedia - https://ru.wikipedia.org/wiki/CRUD
 
 	
