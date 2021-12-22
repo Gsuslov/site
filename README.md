@@ -92,7 +92,7 @@
 
 	
 С помощью данной модели были определены связи между сущностями, поля баз данных.
-Следующим шагом проектирования системы был выбор программных средств для реализации. Выбор пал на язык программирования C#. В качестве СУБД принято решение использовать PostgreSQL  
+Следующим шагом проектирования системы был выбор программных средств для реализации. Выбор пал на язык программирования C#. В качестве СУБД принято решение использовать PostgreSQL[<sup>[4]</sup>](#source_4)  
 	
 На основе ER  диаграммы были созданы базы данных – feetback и fishing. Пример базы данных feedback (Рисунок 4)
 	
@@ -209,7 +209,8 @@
  
 <a name="Listofliterature">	
 	
-## Список литературы                           
+## Список литературы
+	
 Сравнительный анализ существующих решений:
 
 <a name="source_1"/>
@@ -222,7 +223,19 @@
 	
 <a name="source_3"/>
 	
-[3] Рыбалка в Рязани - https://vk.com/ribalkaryazan  
+[3] Рыбалка в Рязани - https://vk.com/ribalkaryazan 
+	
+Проектирование системы:
+	
+<a name="source_4"/>
+	
+[4] Подключение PostgreSQL Ресурсы:  Stack Overflow - https://stackoverflow.com/questions/34274836/connecting-to-postgresql-on-visual-studio, 
+
+Яндекс Дзен - https://zen.yandex.ru/media/id/5de683cd3d008800ad7b76aa/kak-podkliuchit-i-ispolzovat-postgresql-v-c-60059adda3a08c096f56ae36,
+
+Microsoft.com - https://docs.microsoft.com/ru-ru/azure/postgresql/connect-csharp
+	
+	
 
 
 	
