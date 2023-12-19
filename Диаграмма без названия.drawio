@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-19T17:54:59.059Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.771 YaBrowser/23.11.2.771 Yowser/2.5 Safari/537.36" etag="eHpmaoTlSmrGS3WhwgSl" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-19T18:03:51.849Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.771 YaBrowser/23.11.2.771 Yowser/2.5 Safari/537.36" etag="lJHArPjiqvYMOb6ImZCU" version="22.1.11" type="github">
   <diagram name="Страница — 1" id="-SL9HellZ9xqX9xCL2r0">
-    <mxGraphModel dx="3408" dy="561" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3814" dy="806" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2261,66 +2261,69 @@
         <mxCell id="zYOoeC12bsWjr0242PlD-17" value="Содержит" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="-296" y="1537" width="74" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="zYOoeC12bsWjr0242PlD-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zYOoeC12bsWjr0242PlD-19" target="zYOoeC12bsWjr0242PlD-21">
+        <mxCell id="zYOoeC12bsWjr0242PlD-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" edge="1" parent="1" source="zYOoeC12bsWjr0242PlD-19" target="zYOoeC12bsWjr0242PlD-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zYOoeC12bsWjr0242PlD-19" value="Выбор типа соревнования" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="zYOoeC12bsWjr0242PlD-19" value="Выбор типа соревнования" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" vertex="1" parent="1">
           <mxGeometry x="-174" y="2091" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="zYOoeC12bsWjr0242PlD-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="zYOoeC12bsWjr0242PlD-19">
+        <mxCell id="zYOoeC12bsWjr0242PlD-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" edge="1" parent="1" target="zYOoeC12bsWjr0242PlD-19">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-227" y="2116" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zYOoeC12bsWjr0242PlD-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zYOoeC12bsWjr0242PlD-21" target="zYOoeC12bsWjr0242PlD-22">
+        <mxCell id="zYOoeC12bsWjr0242PlD-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" edge="1" parent="1" source="zYOoeC12bsWjr0242PlD-21" target="zYOoeC12bsWjr0242PlD-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zYOoeC12bsWjr0242PlD-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zYOoeC12bsWjr0242PlD-21" target="zYOoeC12bsWjr0242PlD-23">
+        <mxCell id="zYOoeC12bsWjr0242PlD-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" edge="1" parent="1" source="zYOoeC12bsWjr0242PlD-21" target="zYOoeC12bsWjr0242PlD-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zYOoeC12bsWjr0242PlD-21" value="Выбор водоема" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="zYOoeC12bsWjr0242PlD-21" value="Выбор водоема" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" vertex="1" parent="1">
           <mxGeometry x="-30" y="2091" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="zYOoeC12bsWjr0242PlD-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zYOoeC12bsWjr0242PlD-22" target="zYOoeC12bsWjr0242PlD-24">
+        <mxCell id="zYOoeC12bsWjr0242PlD-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" edge="1" parent="1" source="zYOoeC12bsWjr0242PlD-22" target="zYOoeC12bsWjr0242PlD-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zYOoeC12bsWjr0242PlD-22" value="Выбор инфраструктуры водоема" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="zYOoeC12bsWjr0242PlD-22" value="Выбор инфраструктуры водоема" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" vertex="1" parent="1">
           <mxGeometry x="114" y="2091" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="zYOoeC12bsWjr0242PlD-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zYOoeC12bsWjr0242PlD-24" target="zYOoeC12bsWjr0242PlD-25">
+        <mxCell id="zYOoeC12bsWjr0242PlD-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" edge="1" parent="1" source="zYOoeC12bsWjr0242PlD-24" target="zYOoeC12bsWjr0242PlD-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zYOoeC12bsWjr0242PlD-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zYOoeC12bsWjr0242PlD-24" target="zYOoeC12bsWjr0242PlD-30">
+        <mxCell id="zYOoeC12bsWjr0242PlD-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" edge="1" parent="1" source="zYOoeC12bsWjr0242PlD-24" target="zYOoeC12bsWjr0242PlD-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zYOoeC12bsWjr0242PlD-24" value="Внесение информации о спортсмене" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="zYOoeC12bsWjr0242PlD-24" value="Внесение информации о спортсмене" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" vertex="1" parent="1">
           <mxGeometry x="245" y="2048" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="zYOoeC12bsWjr0242PlD-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zYOoeC12bsWjr0242PlD-25" target="zYOoeC12bsWjr0242PlD-31">
+        <mxCell id="zYOoeC12bsWjr0242PlD-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" edge="1" parent="1" source="zYOoeC12bsWjr0242PlD-25" target="zYOoeC12bsWjr0242PlD-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zYOoeC12bsWjr0242PlD-25" value="Внесение информации о пойманной рыбе" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="zYOoeC12bsWjr0242PlD-25" value="Внесение информации о пойманной рыбе" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" vertex="1" parent="1">
           <mxGeometry x="381" y="2048" width="100" height="51" as="geometry" />
         </mxCell>
-        <mxCell id="zYOoeC12bsWjr0242PlD-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zYOoeC12bsWjr0242PlD-27" target="zYOoeC12bsWjr0242PlD-19">
+        <mxCell id="zYOoeC12bsWjr0242PlD-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" edge="1" parent="1" source="zYOoeC12bsWjr0242PlD-27" target="zYOoeC12bsWjr0242PlD-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zYOoeC12bsWjr0242PlD-27" value="Перечень типов соревнований" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;" vertex="1" parent="1">
-          <mxGeometry x="-174" y="2211" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="zYOoeC12bsWjr0242PlD-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zYOoeC12bsWjr0242PlD-28" target="zYOoeC12bsWjr0242PlD-21">
+        <mxCell id="zYOoeC12bsWjr0242PlD-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" edge="1" parent="1" source="zYOoeC12bsWjr0242PlD-27" target="zYOoeC12bsWjr0242PlD-69">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zYOoeC12bsWjr0242PlD-28" value="Перечень водоемов" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;" vertex="1" parent="1">
-          <mxGeometry x="-30" y="2206" width="100" height="30" as="geometry" />
+        <mxCell id="zYOoeC12bsWjr0242PlD-27" value="Перечень типов соревнований и правил" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" vertex="1" parent="1">
+          <mxGeometry x="-172" y="2262" width="108" height="47" as="geometry" />
         </mxCell>
-        <mxCell id="zYOoeC12bsWjr0242PlD-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zYOoeC12bsWjr0242PlD-29" target="zYOoeC12bsWjr0242PlD-22">
+        <mxCell id="zYOoeC12bsWjr0242PlD-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" edge="1" parent="1" source="zYOoeC12bsWjr0242PlD-28" target="zYOoeC12bsWjr0242PlD-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zYOoeC12bsWjr0242PlD-29" value="Перечень&lt;br&gt;инфраструктуры" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;" vertex="1" parent="1">
+        <mxCell id="zYOoeC12bsWjr0242PlD-28" value="Перечень водоемов" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="2202" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zYOoeC12bsWjr0242PlD-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" edge="1" parent="1" source="zYOoeC12bsWjr0242PlD-29" target="zYOoeC12bsWjr0242PlD-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zYOoeC12bsWjr0242PlD-29" value="Перечень&lt;br&gt;инфраструктуры" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" vertex="1" parent="1">
           <mxGeometry x="114" y="2202" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zYOoeC12bsWjr0242PlD-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="zYOoeC12bsWjr0242PlD-30" target="zYOoeC12bsWjr0242PlD-60">
+        <mxCell id="zYOoeC12bsWjr0242PlD-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" edge="1" parent="1" source="zYOoeC12bsWjr0242PlD-30" target="zYOoeC12bsWjr0242PlD-60">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="357" y="2221" />
@@ -2329,22 +2332,22 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="zYOoeC12bsWjr0242PlD-30" value="Перечень спортсменов" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;" vertex="1" parent="1">
+        <mxCell id="zYOoeC12bsWjr0242PlD-30" value="Перечень спортсменов" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" vertex="1" parent="1">
           <mxGeometry x="245" y="2206" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zYOoeC12bsWjr0242PlD-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zYOoeC12bsWjr0242PlD-31" target="zYOoeC12bsWjr0242PlD-60">
+        <mxCell id="zYOoeC12bsWjr0242PlD-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" edge="1" parent="1" source="zYOoeC12bsWjr0242PlD-31" target="zYOoeC12bsWjr0242PlD-60">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zYOoeC12bsWjr0242PlD-31" value="Перечень рыб" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;" vertex="1" parent="1">
+        <mxCell id="zYOoeC12bsWjr0242PlD-31" value="Перечень рыб" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" vertex="1" parent="1">
           <mxGeometry x="381" y="2198.5" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zYOoeC12bsWjr0242PlD-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="zYOoeC12bsWjr0242PlD-23" target="zYOoeC12bsWjr0242PlD-58">
+        <mxCell id="zYOoeC12bsWjr0242PlD-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" edge="1" parent="1" source="zYOoeC12bsWjr0242PlD-23" target="zYOoeC12bsWjr0242PlD-58">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zYOoeC12bsWjr0242PlD-23" value="Внесение информации о соревновании" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="zYOoeC12bsWjr0242PlD-23" value="Внесение информации о соревновании" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" vertex="1" parent="1">
           <mxGeometry x="119" y="2264" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="zYOoeC12bsWjr0242PlD-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="zYOoeC12bsWjr0242PlD-58">
+        <mxCell id="zYOoeC12bsWjr0242PlD-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" edge="1" parent="1" source="zYOoeC12bsWjr0242PlD-58">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="759.9473684210534" y="2202" as="sourcePoint" />
             <mxPoint x="-277" y="2091" as="targetPoint" />
@@ -2354,17 +2357,32 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="zYOoeC12bsWjr0242PlD-57" value="Пользователь" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-342" y="2091" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="zYOoeC12bsWjr0242PlD-58" value="2.0&lt;br&gt;Формирование отчета" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
-          <mxGeometry x="682" y="2161.5" width="104" height="104" as="geometry" />
-        </mxCell>
-        <mxCell id="zYOoeC12bsWjr0242PlD-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zYOoeC12bsWjr0242PlD-60" target="zYOoeC12bsWjr0242PlD-58">
+        <mxCell id="zYOoeC12bsWjr0242PlD-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" edge="1" parent="1" source="zYOoeC12bsWjr0242PlD-57" target="zYOoeC12bsWjr0242PlD-69">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zYOoeC12bsWjr0242PlD-60" value="1.0&lt;br&gt;Подсчет результатов" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+        <mxCell id="zYOoeC12bsWjr0242PlD-57" value="Пользователь" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" vertex="1" parent="1">
+          <mxGeometry x="-342" y="2091" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zYOoeC12bsWjr0242PlD-58" value="2.0&lt;br&gt;Формирование отчета" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;aspect=fixed;perimeter=ellipsePerimeter;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" vertex="1" parent="1">
+          <mxGeometry x="682" y="2161.5" width="104" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="zYOoeC12bsWjr0242PlD-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" edge="1" parent="1" source="zYOoeC12bsWjr0242PlD-60" target="zYOoeC12bsWjr0242PlD-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zYOoeC12bsWjr0242PlD-60" value="1.0&lt;br&gt;Подсчет результатов" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;aspect=fixed;perimeter=ellipsePerimeter;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" vertex="1" parent="1">
           <mxGeometry x="527" y="2165" width="97" height="97" as="geometry" />
+        </mxCell>
+        <mxCell id="zYOoeC12bsWjr0242PlD-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" edge="1" parent="1" source="zYOoeC12bsWjr0242PlD-69" target="zYOoeC12bsWjr0242PlD-57">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-54" y="2187" />
+              <mxPoint x="-54" y="2336" />
+              <mxPoint x="-282" y="2336" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zYOoeC12bsWjr0242PlD-69" value="Выбор типа соревнования" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" vertex="1" parent="1">
+          <mxGeometry x="-176" y="2161.5" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
